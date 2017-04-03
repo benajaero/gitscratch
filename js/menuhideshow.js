@@ -1,6 +1,7 @@
 function () {
-  var cookies = document.cookie;
-  if (true) {
+  var cookies = document.cookie,
+      loggedIn = cookies.substr(10, 12);
+  if (loggedIn = yes) {
     document.getElementById('login').className('show')
     document.getElementById('repo').className('hide')
   } else {
