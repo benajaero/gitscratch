@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Repo - GitScratch</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/repo.css">
+    <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="./js/repo.js"></script>
+  </head>
+  <body>
+    <h1>New Repo</h1>
+    <h2>New or Import</h2>
+    <form action="">
+      <input type="radio" name="repochoose" value="new"> New<br>
+      <input type="radio" name="repochoose" value="import"> Import
+    </form>
+    <!-- New Repo Stuff -->
+    <div id="newrepo">Project Name: <input type="text" name="name" value="Untitled Project" width="10%"><br>
+    Project Instructions: <textarea name="instructions" cols="40" rows="5"></textarea>
+    Project Notes & Credits: <textarea name="notescred" cols="40" rows="5"></textarea>
+    <a onclick="createButton()" class="donebutton">Create Repo</a></div>
+    <!-- Import Repo Stuff -->
+    <div id="importrepo">
+    <input type="file" name="project" accept=".sb,.sb2">
+    <a onclick="importButton()" class="donebutton">Import Project</a>
+    </div>
+  </body>
+</html>
