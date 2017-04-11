@@ -24,6 +24,14 @@ app.get('/repo', (req, res) => {
     res.render('repo', {})
 })
 
+app.get('/login', (req, res) => {
+    res.render('login', {})
+})
+
+app.get('/signup', (req, res) => {
+    res.render('signup', {})
+})
+
 app.listen(8080, () => {
     console.log("Meme magic on port 8080")
 })
