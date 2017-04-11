@@ -3,3 +3,12 @@ body{
   font-family: 'Roboto';
 }
 
+.margin-auto {
+  margin:auto;
+}
+
+.image256 {
+  display: block;
+  width: 256px;
+  height: 256px;
+}
