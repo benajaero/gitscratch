@@ -1,7 +1,9 @@
 # gitscratch
 Git for Scratch
 
-Jobs are in projects.
+<a href="https://gitter.im/gitscratch-/Lobby#">Gitter</a>
+
+<b>Jobs are in projects.</b>
 
 To get started, clone the repo, just type in your terminal:
 
