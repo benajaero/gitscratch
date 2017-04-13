@@ -3,7 +3,17 @@ Git for Scratch
 
 Jobs are in projects.
 
-To get started, fork the repo.
+To get started, clone the repo, just type in your terminal:
+
+```
+git clone https://github.com/gitscratch/gitscratch.git gitscratch
+```
+
+Then type in your terminal:
+
+```
+cd gitscratch
+```
 
 Then type in your terminal:
 ```
