@@ -3,7 +3,7 @@ Git for Scratch
 
 <a href="https://gitter.im/gitscratch-/Lobby#">Gitter</a>
 
-<b>Jobs are in projects.</b>
+<a hef="https://github.com/gitscratch/gitscratch/projects/1">Jobs are in projects.</a>
 
 To get started, clone the repo, just type in your terminal:
 
