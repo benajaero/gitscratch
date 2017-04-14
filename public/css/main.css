@@ -8,7 +8,30 @@ body{
 }
 
 .image256 {
-  display: block;
   width: 256px;
   height: 256px;
+}
+
+.image512 {
+  width: 512px;
+  height: 512px;
+}
+
+.display-block {
+  display: block;
+}
+
+.tron.mdl-color--blue {
+  padding: 50px;
+  margin-bottom: 0px;
+}
+
+.gold {
+  background-color: #FFD700;
+}
+#team {
+  margin-top: 0px;
+}
+.padding-50 {
+  padding: 50px;
 }

@@ -1,4 +1,4 @@
-@import '//fonts.googleapis.com/css?family=Roboto';
+
 body {
 	background: #f7f7f7;
 	font-family: 'Roboto';
@@ -35,4 +35,12 @@ body {
 	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   padding: 3px 0px 3px 3px;
   border: 1px solid rgba(81, 203, 238, 1);
+}
+.margin-horizontal-10 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.login-card {
+	margin: auto;
+	margin-top: 50px;
 }
