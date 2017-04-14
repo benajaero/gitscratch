@@ -20,3 +20,13 @@ cd gitscratch
 ```
 
 You can now contribute
+
+# Electron
+
+The electron app branch is called app.
+
+Access it like this:
+```
+git checkout app
+```
+
