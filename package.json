@@ -1,34 +1,22 @@
 {
-  "name": "gitscratch",
+  "name": "gitscrath",
   "version": "1.0.0",
-  "description": "Git for Scratch",
-  "main": "server.js",
+  "description": "Git + Scratch app",
+  "main": "main.js",
   "scripts": {
-    "test": "start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gitscratch/gitscratch.git"
   },
-  "keywords": [
-    "Git",
-    "scratch",
-    "version-control"
-  ],
-  "author": "card100 gitscratch-organization",
+  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gitscratch/gitscratch/issues"
   },
   "homepage": "https://github.com/gitscratch/gitscratch#readme",
-  "dependencies": {
-    "express": "^4.15.2"
-  },
   "devDependencies": {
-    "body-parser": "^1.17.1",
-    "cookie-parser": "^1.4.3",
-    "ejs": "^2.5.6",
-    "morgan": "^1.8.1",
-    "passport": "^0.3.2"
+    "electron": "^1.6.2"
   }
 }
