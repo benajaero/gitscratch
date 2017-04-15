@@ -10,7 +10,35 @@
 		<link rel="stylesheet" href="./public/css/signup.css">
 	</head>
 	<body class='mdl-color--blue'>
-		<div class='mdl-card mdl-shadow--2dp login-card'>
+		
+		<div class='mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button'>
+	      <header class='mdl-layout__header mdl-layout__header--scroll mdl-color--white'>
+	        <div class='mdl-layout__header-row'>
+	          
+	          <span class='mdl-layout-title mdl-color-text--blue'>Git+Scratch</span>
+	          
+	          <div class='mdl-layout-spacer'></div>
+	          
+	          <nav class='mdl-navigation mdl-layout--large-screen-only'>
+	            <a href="/gitscratch/login" class="mdl-navigation__link mdl-color-text--blue">Log In</a> 
+	            <a href="/gitscratch/signup" class="mdl-navigation__link mdl-color-text--blue">Sign Up</a>
+	            <a href="/gitscratch/repo" class="mdl-navigation__link mdl-color-text--blue">New Repo / Import Repo</a>
+	            <a href="/gitscratch/index#team" class="mdl-navigation__link mdl-color-text--blue">Team</a>
+	          </nav>
+	        </div>
+	      </header>
+	      <div class="mdl-layout__drawer">
+	        <span class="mdl-layout-title">Git+Scratch</span>
+	        
+	        <nav class="mdl-navigation">
+	          <a href="/gitscratch/login" class="mdl-navigation__link mdl-color-text--blue">Log In</a> 
+	            <a href="/gitscratch/signup" class="mdl-navigation__link mdl-color-text--blue">Sign Up</a>
+	            <a href="/gitscratch/repo" class="mdl-navigation__link mdl-color-text--blue">New Repo / Import Repo</a>
+	            <a href="/gitscratch/index#team" class="mdl-navigation__link mdl-color-text--blue">Team</a>
+	        </nav>
+	      </div>
+	     <main class='mdl-layout__content'>
+	       <div class='mdl-card mdl-shadow--2dp login-card'>
 			<div class='mdl-card__title margin-auto mdl-card--border'>
 				<h2 class='mdl-card__title-text mdl-color-text--blue margin-auto'>Sign up</h2>
 			</div>
@@ -46,6 +74,9 @@
     			<h5>Already have an account? <a href="#">Login in</a></h5>
   			</div>
 		</div>
+	      
+	    </main>
+	  </div>
 		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	</body>
 </html>
