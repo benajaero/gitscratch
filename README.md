@@ -19,4 +19,10 @@ Then type in your terminal:
 cd gitscratch
 ```
 
+
+```
+npm install
+```
+
+
 You can now contribute
