@@ -1,4 +1,4 @@
-.donebutton {
+/*.donebutton {
 	-moz-box-shadow:inset -2px 1px 9px 2px #91b8b3;
 	-webkit-box-shadow:inset -2px 1px 9px 2px #91b8b3;
 	box-shadow:inset -2px 1px 9px 2px #91b8b3;
@@ -35,4 +35,9 @@
 .donebutton:active {
 	position:relative;
 	top:1px;
+}*/
+
+.repo-card {
+	width: 90%;
+	padding: 20px;
 }
