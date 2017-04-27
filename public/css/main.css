@@ -1,5 +1,5 @@
 body{
-  background: #f7f7f7;
+  /*background: #f7f7f7;*/
   font-family: 'Roboto';
 }
 
@@ -36,6 +36,7 @@ body{
   padding: 50px;
 }
 
-.text-align-center {
-  text-align:center;
+.text-align-left {
+  text-align:left;
 }
+
