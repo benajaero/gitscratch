@@ -17,7 +17,7 @@ function makeWin() {
  
 
     window.loadURL(url.format({
-        pathname: path.join(__dirname, 'base.html'),
+        pathname: path.join(__dirname, 'views','index.html'),
         protocol: 'file',
         slashes: true
     }))
