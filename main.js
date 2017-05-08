@@ -17,11 +17,12 @@ function makeWin() {
  
 
     window.loadURL(url.format({
-        pathname: path.join(__dirname, 'views','authenticate.html'),
+        pathname: path.join(__dirname, 'src', 'authenticate.html'),
         protocol: 'file',
         slashes: true
     }))
     
+    window.webContents.openDevTools()
     window.on('close', () => {
         window = null
     })

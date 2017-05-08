@@ -1,28 +1,33 @@
 {
-  "name": "gitscratch",
-  "version": "1.0.0",
-  "description": "Git + Scratch app",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "rebuild": "./node_modules/.bin/electron-rebuild"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gitscratch/gitscratch.git"
-  },
-  "author": "card100",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gitscratch/gitscratch/issues"
-  },
-  "homepage": "https://github.com/gitscratch/gitscratch#readme",
-  "devDependencies": {
-    "electron": "^1.6.2",
-    "electron-rebuild": "^1.5.7"
-  },
-  "dependencies": {
-    "nodegit": "^0.18.1"
-  }
+    "name": "gitscratch",
+    "version": "1.0.0",
+    "description": "Git + Scratch app",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "rebuild": "./node_modules/.bin/electron-rebuild"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gitscratch/gitscratch.git"
+    },
+    "author": "card100",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gitscratch/gitscratch/issues"
+    },
+    "homepage": "https://github.com/gitscratch/gitscratch#readme",
+    "devDependencies": {
+        "electron": "^1.6.2",
+        "electron-rebuild": "^1.5.7",
+        "github": "^9.2.0",
+        "json-parse-async": "^1.0.3",
+        "nodegit": "^0.18.3"
+    },
+    "dependencies": {
+        "nodegit": "^0.18.1"
+    },
+    "users": {
+    }
 }
