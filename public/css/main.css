@@ -12,6 +12,10 @@ body{
   height: 256px;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .image512 {
   width: 512px;
   height: 512px;
